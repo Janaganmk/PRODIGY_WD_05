@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    background-color: #229c93;
+    color: white;
+}
+
+#wrap{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#weather{
+    padding:25px;
+    border:2px solid;
+    filter: drop-shadow(white 1px 1px 10px);
+    display: inline-block;
+    width: 280px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#weather input{
+    width: 250px;
+    height: 40px;
+    background:white;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 15px;
+    border:none;
+    border-radius: 30px;
+    color: black;
+}
+
+#weather button{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#weather button:hover{
+    color: #229c93;
+}
+
+#weather-info{
+    margin-top: 25px;
+    font-size: 1rem;
+}
+
+#tempurature{
+    display: none;
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 10px;
+    filter: drop-shadow(1px 1px 10px skyblue);
+}
+
+.h1{
+    padding: 5px;
+}
+
+@media screen and (max-width:420px){
+    #weather{
+        padding:25px;
+        border:2px solid;
+        filter: drop-shadow(white 1px 1px 10px);
+        display: inline-block;
+        width: 280px;
+        text-align: center;
+        border-radius: 20px;
+    }
+}
